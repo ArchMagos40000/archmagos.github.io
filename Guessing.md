@@ -14,5 +14,5 @@ flowchart TD
     HighLow -- No --> Low[Display **Too low! Try again.**]
     High --> Prompt
     Low --> Prompt
-    Correct --> End([End]
+    Correct --> End([End])
 ```
