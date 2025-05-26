@@ -2,5 +2,6 @@
 
 ```mermaid
 flowchart TD
-    Start([Start]) -->  End([End])
+    Start([Start]) --> Init[Initialize game variables\nGenerate random number between 1 and 100]
+ End([End])
 ```
