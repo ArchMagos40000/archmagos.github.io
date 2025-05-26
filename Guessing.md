@@ -10,8 +10,8 @@ flowchart TD
     Validate -- Yes --> Compare{Is guess equal to target number?}
     Compare -- Yes --> Correct[Display **Correct! You win!**]
     Compare -- No --> HighLow{Is guess greater than target number?}
-    HighLow -- Yes --> High[Display "Too high! Try again."]
-    HighLow -- No --> Low[Display "Too low! Try again."]
+    HighLow -- Yes --> High[Display **Too high! Try again.**]
+    HighLow -- No --> Low[Display **Too low! Try again.**]
     High --> Prompt
     Low --> Prompt
     Correct --> End([End]
