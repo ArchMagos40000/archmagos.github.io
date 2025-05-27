@@ -2,7 +2,7 @@
 
 ```mermaid
 flowchart TD
-    Start([Start]) --> Init[Initialize game variables Generate random number between 1 and 100]
+    Start([Start]) --> Init[Initialize game variables. Generate random number between 1 and 100]
     Init --> Prompt[Prompt user for a guess]
     Prompt --> Validate{Is input a valid number?}
     Validate -- No --> Error[Display error message: Please enter a valid number]
